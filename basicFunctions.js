@@ -1,6 +1,6 @@
-function isEven(number) {
-  return number % 2 === 0;
+function factorial(n) {
+  if (n === 0) return 1;
+  return n * factorial(n - 1);
 }
 
-console.log(isEven(10)); // true
-console.log(isEven(7)); // false
+console.log(factorial(5)); // 120
