@@ -1,6 +1,6 @@
-function factorial(n) {
-  if (n === 0) return 1;
-  return n * factorial(n - 1);
+function celsiusToFahrenheit(celsius) {
+  return (celsius * 9) / 5 + 32;
 }
 
-console.log(factorial(5)); // 120
+console.log(celsiusToFahrenheit(0)); // 32
+console.log(celsiusToFahrenheit(100)); // 212
