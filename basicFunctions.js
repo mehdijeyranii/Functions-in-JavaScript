@@ -1,11 +1,6 @@
-function greet(name) {
-  return `Hello, ${name}!`;
+function isEven(number) {
+  return number % 2 === 0;
 }
 
-console.log(greet("Alice"));
-
-function add(a, b) {
-  return a + b;
-}
-
-console.log(add(2, 3));
+console.log(isEven(10)); // true
+console.log(isEven(7)); // false
