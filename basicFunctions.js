@@ -1,6 +1,7 @@
-function celsiusToFahrenheit(celsius) {
-  return (celsius * 9) / 5 + 32;
+function isPalindrome(str) {
+  let reversed = str.split("").reverse().join("");
+  return str === reversed;
 }
 
-console.log(celsiusToFahrenheit(0)); // 32
-console.log(celsiusToFahrenheit(100)); // 212
+console.log(isPalindrome("radar")); // true
+console.log(isPalindrome("hello")); // false
